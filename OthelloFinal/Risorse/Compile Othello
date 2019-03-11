@@ -1,0 +1,2 @@
+
+g++ Board.h Button.h CheckBox.h CoreOthello.h Disc.h Form.h GestioneGioco.h Settings.h StartGame.h StartMenu.h Control.h Control.cpp Board.cpp Button.cpp CheckBox.cpp CoreOthello.cpp Disc.cpp Form.cpp GestioneGioco.cpp Settings.cpp StartGame.cpp StartMenu.cpp Main.cpp -o main -I/usr/include/allegro5 -L/usr/lib -lallegro `pkg-config --cflags --libs allegro-5 allegro_acodec-5 allegro_audio-5 allegro_color-5 allegro_dialog-5 allegro_font-5 allegro_image-5 allegro_main-5 allegro_memfile-5 allegro_physfs-5 allegro_primitives-5 allegro_ttf-5`
